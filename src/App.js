@@ -9,7 +9,7 @@ export default function App() {
 
   useEffect(() => {
     searchIBN().then()
-  }, [input])
+  }, [])
 
   async function searchIBN() {
     const response = await fetch (
